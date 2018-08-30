@@ -1,0 +1,7 @@
+https://www.datacamp.com/community/tutorials/python-dictionary-comprehension
+https://www.programiz.com/python-programming/object-oriented-programming
+https://www.programiz.com/python-programming/anonymous-function
+
+https://www.datacamp.com/community/tutorials/functions-python-tutorial#lambda
+
+Estudar map() reduce() filter()
