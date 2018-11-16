@@ -41,4 +41,4 @@ Contatos: frclasso@gmail.com
 
 https://www.linkedin.com/in/fabio-reis-classo-46881425/
 
-![Image](https://drive.google.com/open?id=17CIZ3ZzCA2R2KY5j3OlMxHYniq1zJ6e7)
+[Banner](https://drive.google.com/open?id=17CIZ3ZzCA2R2KY5j3OlMxHYniq1zJ6e7)
