@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+    #!/usr/bin/env python3
 # -*-coding:utf-8 -*-
 import os, sys, datetime
 
@@ -36,7 +36,7 @@ class MeuComputador:
         z = os.name
         print(z)
 
-    def diretorio(self):
+    def listandoDiretorio(self):
         "Lista o conteudo do diretorio atual."
         return os.system('ls -la')
 
@@ -57,4 +57,8 @@ processo = MeuComputador()
 #processo.diretorio()
 #print(processo.diretorio.__doc__)
 #print(processo.verificaHora.__doc__)
-processo.verificaHora()
+# processo.verificaHora()
+# processo.users_process()
+# processo.listandoDiretorio()
+#processo.verficaVersao()
+processo.sistemaOp()

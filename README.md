@@ -1,12 +1,12 @@
 Python 3 - módulo 2
 ===================
 
-Este curso foi desenvolvido para iniciantes em programação, não há pré requisitos
-para iniciar o curso.
+Este curso é continuação do módulo introdutório, Python módulo 1.
 
 Nosso objetivo neste curso e desenvolver o raciocínio lógico utilizando Python,
 na sua terceira versão (Python 3),  como ferramenta e conhecer os elementos básicos
-da linguagem. Essa apostila é a segunda parte do nosso curso de Python (módulo 2).
+da linguagem, dessa vez um pouco mais a fundo. 
+Essa apostila é a segunda parte do nosso curso de Python (módulo 2).
 
 Grande parte dos exemplos e exercício contidos neste repositorio estão presentes na apostila
 fornecida aos alunos do curso, a mesma pode ser baixada no link abaixo:

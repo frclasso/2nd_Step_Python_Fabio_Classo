@@ -7,7 +7,7 @@ class Vector:
         return 'Vector ({},{})'.format(self.a, self.b)
 
     def __add__(self, other):
-        return Vector(self.a+ other.a, self.b + other.b)
+        return Vector(self.a + other.a, self.b + other.b)
 
 
 v1 = Vector(2,10)

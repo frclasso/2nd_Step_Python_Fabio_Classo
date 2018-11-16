@@ -1,0 +1,3 @@
+Os exemplos contidos neste diretorios foram extraidos do tutorial de SQLite3 do
+site Tutorials Point, no endereco:
+https://www.tutorialspoint.com/sqlite/sqlite_quick_guide.htm

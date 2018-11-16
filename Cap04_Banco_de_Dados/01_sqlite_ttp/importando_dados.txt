@@ -1,0 +1,10 @@
+#MODO DE USAR:
+#importando os dados:
+
+sqlite3 banco_de_dados.db < inserirdados.sql
+
+#VERIFIQUE SE OS DADOS FORAM IMPORTADOS CORRETAMENTE
+
+sqlite3 banco_de_dados.db
+
+sqlite> SELECT * FROM banco_de_dados.db
