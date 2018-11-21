@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
 
-def func(x,y,z): return x + y + z
+def func(x,y,z):
+    return x + y + z
 
 
 f = lambda x,y,z:x+y+z

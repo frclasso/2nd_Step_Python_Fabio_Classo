@@ -8,10 +8,16 @@ na sua terceira versão (Python 3),  como ferramenta e conhecer os elementos bá
 da linguagem, dessa vez um pouco mais a fundo. 
 Essa apostila é a segunda parte do nosso curso de Python (módulo 2).
 
-Grande parte dos exemplos e exercício contidos neste repositorio estão presentes na apostila
-fornecida aos alunos do curso, a mesma pode ser baixada no link abaixo:
 
- - https://drive.google.com/open?id=1H1XNOjT7b1UH2_X0W6mHNwXEYk8NEMfo
+Apostila
+--------
+
+Grande parte dos exemplos e exercício contidos neste repositorio estão presentes na apostila
+fornecida aos alunos do curso.
+
+
+- Por motivo de segurana o link da apostila digital sera enviado individualmente aos alunos matriculados.
+
 
 Caso tenha algum problema para baixar a apostila  entre em contato por favor.
 
