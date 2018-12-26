@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# template.py by Bill Weinman [http://bw.org/]
+# 00_template.py by Bill Weinman [http://bw.org/]
 # created for Python 3 Essential Training on lynda.com
 # Copyright 2010 The BearHeart Gorup, LLC
 import sqlite3
