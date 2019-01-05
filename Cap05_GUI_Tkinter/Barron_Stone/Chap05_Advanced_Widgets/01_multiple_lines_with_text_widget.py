@@ -12,9 +12,8 @@ text.insert('1.0', 'As praias desertas continuam esperando por nos dois.\n\n\n\n
                    'que venta lá fora...'
                    '\no barco que nao vai voltar.')
 
-
 # separação de palavras
-text.config(wrap = 'word')
+text.config(wrap='word')
 
 # obtendo o texto
 print(text.get('1.0', '1.end')) # do inicio da primeira linha até o final da primeira linha
