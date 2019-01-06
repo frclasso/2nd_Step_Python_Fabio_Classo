@@ -32,11 +32,5 @@ from tkinter import messagebox
 # Obs,nenhum desses métodos abrem ou salvam nada, apenas retornam informações de
 # arquivos ou diretorios
 
-# criando um selecionador de corers com colorchooser
-# from tkinter.colorchooser import *
-# #colorchooser.askcolor(initialcolor='#FFFFFF')
-# def colorcode():
-#     return askcolor()[1]
-#
-# print(colorcode())
+
 
