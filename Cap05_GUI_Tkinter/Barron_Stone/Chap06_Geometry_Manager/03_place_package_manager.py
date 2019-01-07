@@ -20,10 +20,10 @@ root.geometry('640x480+200+200') # width, height, posicao na tela
 
 # Podemos ainda combinar posição relativa e absoluta
 # relx=0.5 no meio mais x=100, mais 100 pixels
-ttk.Label(root, text='Green', background='green').place(relx=0.5,x=160, rely=0.5, y=50)
+ttk.Label(root, text='Green', background='Green').place(relx=0.5,x=160, rely=0.5, y=50)
 
 # Utilizando índices negativos
-ttk.Label(root, text='Orange', background='orange').place(relx=1.0,x=-5,y=5, anchor='ne')
+ttk.Label(root, text='Orange', background='Orange').place(relx=1.0,x=-5,y=5, anchor='ne')
 # relx=1.0 totalmente a direita
 #x = -5, diminui 5 pixels horizontals, esq para direita
 #y = 5 vertical, de cima para baixo 5 pixels
