@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 
 import tkinter
+root = tkinter.Tk()
 
-top = tkinter.Tk()
+# Aqui será inserido nosso código
 
-# Code to add widgets will go here...
-
-top.mainloop()
+root.mainloop()  # mantém o programa rodando

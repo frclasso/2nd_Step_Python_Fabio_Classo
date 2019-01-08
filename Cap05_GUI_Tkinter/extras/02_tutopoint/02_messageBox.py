@@ -5,13 +5,13 @@ from tkinter import messagebox
 
 top = Tk()
 
-top.geometry("100x100")
+top.geometry("140x100") # tamanhdo da janela
 
 
 def helloCallBack():
-    msg  = messagebox.showinfo("Hello Pyton", "Hello World")
+    msg = messagebox.showinfo(title="Hello Pyton", message="Hello World")
 
 
 B = Button(top, text="Hello", command=helloCallBack)
-B.place(x=50, y=50)
+B.place(x=50, y=50) # posicionamento do botão
 top.mainloop()
