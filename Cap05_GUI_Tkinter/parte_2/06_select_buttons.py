@@ -11,11 +11,10 @@ checkButton.pack()
 
 # passando uma string
 spam = StringVar()
-spam.set('SPAM!')
-#spam.get() # nao deu certo
+#spam.set('SPAM!')
 
 checkButton.config(variable=spam, onvalue='SPAM checked!', offvalue='SPAM Not checked!')
-#spam.get()  # nao deu certo
+print(spam.get())
 
 # Inserindo radioButtons
 breakfast = StringVar()
@@ -24,10 +23,10 @@ ttk.Radiobutton(root, text='EGGS', variable=breakfast, value='EGGS').pack()
 ttk.Radiobutton(root, text='SAUSAGE', variable=breakfast, value='SAUSAGE').pack()
 ttk.Radiobutton(root, text='SPAM', variable=breakfast, value='SPAM').pack()
 
-#breakfast.get() # nao deu certo
+#print(breakfast.get())
 
 # Por ultimo vamos alterar o comportamento do nosso checkButton
 # ao selecionar o radioButton vamos alterar o nome do checkButton
-checkButton.config(textvariable=breakfast)
+#checkButton.config(textvariable=breakfast)
 
 root.mainloop()

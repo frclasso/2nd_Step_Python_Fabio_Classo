@@ -10,11 +10,11 @@ month = StringVar()
 combobox = ttk.Combobox(root, textvariable=month)
 combobox.pack() # até aqui temos uma janela sem os meses
 
-# inserindo uma tupla de meses
+# passando valores para a comboox, inserindo uma tupla de meses
 combobox.config(values=('Jan', 'Fev', 'Mar', 'Apr','May', 'Jun', 'Jul',
                         'Aug', 'Oct', 'Nov', 'Dez'))
 
-month.get()  # nao funciona
+print(month.get())  # nao funciona
 month.set('Jan')  # define o mês
 
 

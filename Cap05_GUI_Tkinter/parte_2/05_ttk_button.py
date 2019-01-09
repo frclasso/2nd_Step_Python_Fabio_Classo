@@ -29,7 +29,7 @@ button.state(['!disabled'])
 
 # inserindo uma imagem no botão
 logo = PhotoImage(file='python_logo.gif')
-button.config(image = logo, compound=LEFT)
+button.config(image=logo, compound=LEFT)
 
 # Vamos reduzir o tamanho da logo
 small_logo = logo.subsample(5,5)
