@@ -22,7 +22,7 @@ panedwindow.insert(1, frame3)
 # frame3 tem tamanho invariavel em relação aos demais frames
 
 # excluindo um frame
-panedwindow.forget(1) # posição referente a frame3
+#panedwindow.forget(1) # posição referente a frame3
 
 
 root.mainloop()

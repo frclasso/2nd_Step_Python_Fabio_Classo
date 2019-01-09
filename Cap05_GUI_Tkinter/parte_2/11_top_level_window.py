@@ -25,7 +25,7 @@ window.lift(root)
 
 window.geometry('640x480+50+100') # width, height, distancia esq da tela, distancia superior tela
 
-window.resizable(False, False) # impossibilita moificar o tamanho via mouse
+window.resizable(False, False) # impossibilita modificar o tamanho via mouse
 
 # criando valores máximo e mínimo para a janela
 window.maxsize(640, 480)

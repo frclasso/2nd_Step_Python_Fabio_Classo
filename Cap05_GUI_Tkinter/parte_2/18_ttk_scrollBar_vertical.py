@@ -48,8 +48,8 @@ text.grid(row=0, column=0)
 
 # para criar uma scrollbar utilizaremos o método Scrollbar da biblioteca ttk
 scrollbar = ttk.Scrollbar(root, orient=VERTICAL, command=text.yview)  # filho de 'root', não de 'text'
-scrollbar.grid(row=0, column=1, sticky='ns') # clomumn 1 posiciona a direita do texto,
-# sticky ns = noth/south
+scrollbar.grid(row=0, column=1, sticky='ns') # column 1 posiciona a direita do texto,
+# sticky ns = north/south
 
 text.config(yscrollcommand=scrollbar.set) # caso o cursor nao se mova junto com o texto
 

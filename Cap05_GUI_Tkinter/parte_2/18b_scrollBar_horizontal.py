@@ -5,7 +5,7 @@ from tkinter import ttk
 root = Tk()
 
 # definindo a área onde a scrollbar vai atuar
-canvas=Canvas(root, scrollregion=(0,0, 640, 480), bg='white')
+canvas=Canvas(root, scrollregion=(0,0, 640, 480), bg='green')
 
 # utilizamos o modulo ttk para criar  a scrollbar
 xscroll = ttk.Scrollbar(root, orient=HORIZONTAL, command=canvas.xview)

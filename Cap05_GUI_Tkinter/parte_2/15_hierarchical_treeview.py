@@ -29,7 +29,7 @@ treeview.insert('item2', 'end', 'python', text='Python', image=logo)
 treeview.config(height=5) # exibe apenas 5 items por vez
 
 # movendo nodes dentro da árvore
-treeview.move('item2', 'item1', 'end')  # item, parent, index
+#treeview.move('item2', 'item1', 'end')  # item, parent, index
 
 # Por padrão a árvore é exibida fechada, no entanto podemos modifiar para aberta
 # utilizando a função open=True
@@ -45,7 +45,7 @@ treeview.detach('item3')  # isso não deleta o node
 treeview.move('item3', 'item2', '0') # item, parent, index
 
 # deletando completamente um node
-treeview.delete('item3')
+#treeview.delete('item3')
 
 # Adicionando outra coluna, para exibição de detalhes ou informações do nosso programa
 treeview.config(columns=('version'))\

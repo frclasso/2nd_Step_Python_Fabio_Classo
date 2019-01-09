@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
-'''Organizin widgets with frames'''
+'''Organizing widgets with frames'''
+
 
 from tkinter import *
 from tkinter import ttk
@@ -15,7 +16,7 @@ ttk.Button(frame, text='Click Me').grid() # usamos o gerenciado geometrico grid(
                                             # para criar um botao em frame
 frame.config(padding=(30, 15))
 
-# criando um Label
+# criando um LabelFrame
 ttk.LabelFrame(root, height=100, width=200, text='My frame').pack()
 # voltamos a utilizar pack() pois estamos criando um frame em root
 
