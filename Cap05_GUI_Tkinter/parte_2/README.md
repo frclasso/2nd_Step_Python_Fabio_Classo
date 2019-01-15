@@ -3,6 +3,7 @@ Tkinter course by Barron Stone
 Os exemplos desse tutorial foram extraídos do tutorial Python GUI Development with Tkinter 2014 de
 Barron Stone.
 
+
 https://www.linkedin.com/in/barronstone/
 
 https://twitter.com/barronstone?lang=en

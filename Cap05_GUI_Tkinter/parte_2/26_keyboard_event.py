@@ -15,7 +15,7 @@ def key_press(event):
     print('keycode:{}'.format(event.keycode)) # contem o codigo numerico da chave(key) pressionada
 
 root.bind('<KeyPress>', key_press)
-# o primeiro paramentro é uma string contendo especialmente descrições de
+# o primeiro parametro é uma string contendo especialmente descrições de
 # parametros de eventos que pretendemos ouvir
 # segundo parametro é nome de retorno do evento ou método que se pretende executar
 

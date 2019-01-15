@@ -29,7 +29,7 @@ class FeedBack:
         ttk.Label(self.frame_content, text="Email:")
         ttk.Label(self.frame_content, text="Comments:")
 
-        # entrada de dados do campos criando acima
+        # entrada de dados do campos criados acima
         self.entry_name = ttk.Entry(self.frame_content, width=24)
         self.entry_email = ttk.Entry(self.frame_content, width=24)
 
@@ -39,6 +39,7 @@ class FeedBack:
         # criando os botões
         ttk.Button(self.frame_content, text='Submit')
         ttk.Button(self.frame_content, text='Clear')
+
 
 def main():
     root = Tk()

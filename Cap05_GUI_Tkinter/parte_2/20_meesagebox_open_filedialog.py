@@ -21,9 +21,9 @@ from tkinter import messagebox
 
 
 # criando uma filedialog
-# from tkinter import filedialog
-# filename = filedialog.askopenfile()
-# print(filename.name)
+from tkinter import filedialog
+filename = filedialog.askopenfile()
+print(filename.name)
 
 # filedialog
 # sakdirectory(), asksavefile(mode), asksaveasfilename()

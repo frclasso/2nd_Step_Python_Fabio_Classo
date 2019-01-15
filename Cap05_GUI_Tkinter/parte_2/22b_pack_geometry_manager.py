@@ -31,7 +31,7 @@ ttk.Label(root, text="Hello, Tkinter Green! ", background="green").pack(side=LEF
 # juntamente com a propriedade root.pack_slaves()
 for widget in root.pack_slaves():
     widget.pack_configure(fill=BOTH,expand=True)
-    print(widget.pack_info())   # exibe o informações reativas ao package manager
+    print(widget.pack_info())   # exibe o informações relativas ao package manager
 
 label.pack_forget()
 

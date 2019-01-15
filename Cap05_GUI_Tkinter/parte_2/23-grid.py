@@ -66,11 +66,6 @@ root = Tk()
 
 
 # Adicionando padding interno e externo aos labels
-root.rowconfigure(0, weight=1)
-root.rowconfigure(1, weight=3) # row 1 expande 3x o valor de row 0 em pixels
-
-# alterando o weigth das colunas
-root.columnconfigure(2, weight=1)
 
 ttk.Label(root, text="Yellow",
           background='yellow').grid(row=0, column=2, rowspan=2, stick='nsew')

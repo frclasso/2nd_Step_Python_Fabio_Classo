@@ -31,13 +31,13 @@ canvas.bind('<ButtonPress>', mouse_press)
 
 
 # criando uma interface par desenhar linhas
-def draw(event):
-    # precisamos saber a localização previa do mouse e a atual, definimos uma varial global para isso
-    global prev
-    canvas.create_line(prev.x, prev.y, event.x, event.y,  width=5)
-    prev = event
-
-
-canvas.bind('<B1-Motion>', draw)
+# def draw(event):
+#     # precisamos saber a localização previa do mouse e a atual, definimos uma varial global para isso
+#     global prev
+#     canvas.create_line(prev.x, prev.y, event.x, event.y,  width=5)
+#     prev = event
+#
+#
+# canvas.bind('<B1-Motion>', draw)
 
 root.mainloop()

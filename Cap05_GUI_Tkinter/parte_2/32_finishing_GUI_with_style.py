@@ -10,7 +10,7 @@ class FeedBack:
     def __init__(self, master):
 
         # Vamos alterar o layout e o estilo dos widgets
-        master.title('Explor California Feedback')
+        master.title('Explore California Feedback')
         master.resizable(False, False) # impede redimensionamento
         master.configure(background='#e1d8b9')
 
