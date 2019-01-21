@@ -31,20 +31,11 @@ Organização do curso:
 - Capítulo 05 [Programação GUI - Tkinter](https://github.com/frclasso/apostila_python_modulo_2/tree/master/Cap05_GUI_Tkinter)
 
 
-Esse material foi desenvolvido por **Fabio R. Classo** para o curso de Linguagem de
-Programação Python da **JCAVI** Treinamentos em T.I.
+Esse material foi desenvolvido por **Fabio R. Classo** para o curso de Linguagem de Programação Python
 
 
-![Image](https://github.com/frclasso/apostila_python_modulo_1/blob/master/jcavi.png "JCAVI")
-
-
-
-https://www.jcavitreinamentos.com.br/
-
-https://www.facebook.com/jcavitreinamentos/
+![Image]()
 
 Contatos: frclasso@gmail.com
 
 https://www.linkedin.com/in/fabio-reis-classo-46881425/
-
-[Banner](https://drive.google.com/open?id=17CIZ3ZzCA2R2KY5j3OlMxHYniq1zJ6e7)
