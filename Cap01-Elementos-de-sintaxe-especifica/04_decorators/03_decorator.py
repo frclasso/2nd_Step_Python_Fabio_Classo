@@ -8,4 +8,4 @@ def is_called():
 
 
 new = is_called()
-print(new())
+new()

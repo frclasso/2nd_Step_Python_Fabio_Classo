@@ -10,6 +10,15 @@ class D:
         C.__init__(self)
         self.y = 2
 
+# class D(C):
+#     def __init__(self):
+#         print('Construtor de D')
+#         #C.__init__(self)
+#         super().__init__()
+#         self.y = 2
+
+
+
 
 d = D()
 # output: Construtor de D
