@@ -60,7 +60,7 @@ class myRange():
 
     def __next__(self):
         if self.value >= self.end:
-            raise  StopIteration
+            raise StopIteration
         current = self.value
         self.value += 1
         return current

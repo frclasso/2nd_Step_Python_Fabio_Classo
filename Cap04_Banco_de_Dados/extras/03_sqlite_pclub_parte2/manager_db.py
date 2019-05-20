@@ -4,8 +4,7 @@ import os
 import sqlite3
 import io
 import datetime
-# funciona no terminal mas nao no import
-#import names
+import names
 import csv
 import random
 from gen_random_values import *
@@ -184,7 +183,7 @@ class ClientesDB(object):
                               email, gen_phone(),
                               city, uf, date))
         try:
-            self.db.cursor.execute("""
+            self.db.cursor.executemany("""
             INSERT INTO clientes(nome, idade, cpf, email, fone, cidade, uf, criado_em)
             VALUES(?,?,?,?,?,?,?,?)
             """,lista)
@@ -258,7 +257,7 @@ class ClientesDB(object):
 
     def meu_select(self, sql="SELECT * FROM clientes WHERE uf='RJ';"):
         r = self.db.cursor.execute(sql)
-        # caso queira gravar os dados, se usar ISERT, UPDATE ou DELETE
+        # caso queira gravar os dados, se usar INSERT, UPDATE ou DELETE
         self.db.commit_db()
         for cliente in r.fetchall():
             print(cliente)
@@ -471,7 +470,8 @@ class PessoasDb(object):
             return False
 
     def ler_todas_pessoas(self):
-        sql = 'SELECT * FROM pessoas INNER JOIN cidades ON pessoas.cidade_id = cidades.id'
+        sql = 'SELECT * FROM pessoas INNER JOIN cidades ON ' \
+              'pessoas.cidade_id = cidades.id'
         r = self.db.cursor.execute(sql)
         return r.fetchall()
 
@@ -513,7 +513,7 @@ if __name__=="__main__":
     print('clientes.db')
     c = ClientesDB()
     #c.criar_schema()
-    # c.inserir_um_registro()
+    c.inserir_um_registro()
     # c.inserir_com_lista()
     # c.inserir_de_arquivo()
     # c.inserir_de_csv()
@@ -547,9 +547,9 @@ if __name__=="__main__":
     #p.table_info()
     #p.table_list()
     #p.table_schema()
-    #p.inserir_randomico(100) # NameError: name 'names' is not defined
+    p.inserir_randomico(100)
     #p.inserir_uma_pessoa() # ok
     p.imprimir_todas_pessoas()
     #p.myselect() #ok
     #p.table_list() #ok
-    p.fechar_conexao()
+    #p.fechar_conexao()

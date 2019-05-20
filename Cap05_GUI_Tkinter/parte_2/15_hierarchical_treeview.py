@@ -63,7 +63,7 @@ treeview.heading('version', text='Version') # name, valor
 # definindo valores para items na coluna version
 treeview.set('python', 'version', '3.4.1') # item, column, value
 
-# agrupando propriedades atrvés de tags
+# agrupando propriedades através de tags
 treeview.item('python', tags='software')
 treeview.tag_configure('software', background='yellow')
 

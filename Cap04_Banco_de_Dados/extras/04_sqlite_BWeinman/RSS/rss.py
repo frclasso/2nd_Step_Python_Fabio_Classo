@@ -102,9 +102,11 @@ class RSS:
 
 def main():
     for url in (
-        'http://feeds.nytimes.com/nyt/rss/Books',
-        'http://billweinman.wordpress.com/feed/',
-        'http://perlhacks.com/atom.xml'
+            'http://feeds.nytimes.com/nyt/rss/Books',
+
+
+
+
     ): 
         rss = RSS(url)
         for r in rss.records():

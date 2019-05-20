@@ -14,6 +14,7 @@ class Papagaio:
         self.name = name
         self.age = age
 
+    # métodos
     def sing(self, song):
         return "{} sings: {}".format(self.name, song)
 
@@ -33,6 +34,8 @@ ze= Papagaio('ZeCarioca', 20)
 
 # acessando atributos de objetos
 print("{} is {} years old".format(blu.name, blu.age))
+
+# Acesando os metodos
 print(blu.sing('Happy Day'))
 print(blu.dance())
 print(ze.sing('Olele olala'))

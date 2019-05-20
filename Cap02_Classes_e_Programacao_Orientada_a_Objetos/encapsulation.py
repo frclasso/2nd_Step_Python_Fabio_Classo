@@ -7,7 +7,7 @@ class Computer:
     def __init__(self):
         self.__maxprice = 900
 
-    def seel(self):
+    def sell(self):
         print("Selling price: US$ {}".format(self.__maxprice))
 
     def setMaxPrice(self, price):
@@ -15,12 +15,12 @@ class Computer:
 
 
 c = Computer()
-c.seel()
+c.sell()
 
 # alterando o preco
 c.__maxprice = 1000 # Nao alterar o valor
-c.seel()
+c.sell()
 
 # usando a funcao setter
 c.setMaxPrice(2000)
-c.seel()
+c.sell()

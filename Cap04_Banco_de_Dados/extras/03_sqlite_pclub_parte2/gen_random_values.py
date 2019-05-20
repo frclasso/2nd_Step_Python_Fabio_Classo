@@ -9,7 +9,7 @@ O arquivo gen_random_values.py gera idade, cpf, telefone, data e
 cidade aleatoriamente. Para isso vamos importar algumas bibliotecas."""
 
 import random
-#import rstr
+import rstr
 import datetime
 
 
@@ -33,6 +33,8 @@ def gen_phone():
 
 
 def gen_timestamp():
+    """A função gen_timestamp() gera um datetime no formato yyyy-mm-dd hh:mm:ss.000000.
+    Repare no uso do random.randint(a,b) com um intervalo definido para cada parâmetro."""
     year = random.randint(1980, 2015)
     month = random.randint(1, 12)
     day = random.randint(1, 28)
@@ -46,10 +48,28 @@ def gen_timestamp():
 
 
 def gen_city():
+    """A função gen_city() escolhe uma cidade numa lista com o comando random.choice(seq)"""
     list_city = [
-        [u'Sao Paulo', 'SP'],
+        [u'São Paulo', 'SP'],
+        [u'Belém', 'PA'],
         [u'Rio de Janeiro', 'RJ'],
+        [u'Goiânia', 'GO'],
+        [u'Salvador', 'BA'],
+        [u'Guarulhos', 'SP'],
+        [u'Brasília', 'DF'],
+        [u'Campinas', 'SP'],
+        [u'Fortaleza', 'CE'],
+        [u'São Luís', 'MA'],
+        [u'Belo Horizonte', 'MG'],
+        [u'São Gonçalo', 'RJ'],
+        [u'Manaus', 'AM'],
+        [u'Maceió', 'AL'],
+        [u'Curitiba', 'PR'],
+        [u'Duque de Caxias', 'RJ'],
+        [u'Recife', 'PE'],
+        [u'Natal', 'RN'],
         [u'Porto Alegre', 'RS'],
         [u'Campo Grande', 'MS']]
     return random.choice(list_city)
 
+gen_timestamp()

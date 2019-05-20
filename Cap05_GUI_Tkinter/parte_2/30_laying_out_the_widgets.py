@@ -34,6 +34,7 @@ class FeedBack:
         # self.entry_name = ttk.Entry(self.frame_content, width=24)
         # self.entry_email = ttk.Entry(self.frame_content, width=24)
         # self.text_comments = Text(self.frame_content, width=50, height=10)
+
         # # nao inserir o grid no construtor, fazer separado
         # self.entry_name.grid(row=1, column=0)
         # self.entry_email.grid(row=1, column=1)

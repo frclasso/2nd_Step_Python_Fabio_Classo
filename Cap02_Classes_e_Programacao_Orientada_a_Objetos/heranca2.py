@@ -10,8 +10,8 @@ class Bird:
     def whoIsThis(self):
         print('Bird!!')
 
-    def swim(self):
-        print('Swim faster!')
+    def fly(self):
+        print('Fly faster!')
 
 
 # classe filha / child class
@@ -24,13 +24,13 @@ class Penguin(Bird):
     def whoIsThis(self):
         print("Penguin")
 
-    def run(self):
-        print("Run faster.")
+    def swin(self):
+        print("Sin faster.")
 
 peggy = Penguin()
 peggy.whoIsThis()
 peggy.swim()
-peggy.run()
+peggy.fly()
 
 azul = Bird()
 azul.whoIsThis()

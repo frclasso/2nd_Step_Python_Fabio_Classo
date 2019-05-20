@@ -106,3 +106,5 @@ pyvenv.cfg
 pip-selfcheck.json
 
 parei.txt
+*.csv
+*.xlsx

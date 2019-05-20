@@ -33,15 +33,15 @@ print("Total Employee {}".format(Employee.empCount))
 #emp1.displayEmployee()
 #del emp1.salary
 
-# Acessando atributos
+# Verificar atributos dos objetos
 # print(hasattr(emp1, 'salary')) # Retorna True se o atributo 'salary' existir
 # print(getattr(emp1, 'salary')) # Retorna o valor  do atributo 'salary'
 # setattr(emp1, 'salary', 4000) # Define o novo valor
 # print(getattr(emp1, 'salary'))
 # delattr(emp1,'salary')  # Deleta o atributo 'salary'
-# print(getattr(emp1, 'salary')) # AttributeError: 'Employee' object has no attribute 'salary'
+# print(hasattr(emp1, 'salary'))
 
-# Modificando atributos internos (Built-In Attibutes)
+# Verificar atributos de classe
 print("Employee.__doc__:", Employee.__doc__)
 print("Employee.__name__:", Employee.__name__)
 print("Emplyee.__module: ", Employee.__module__)

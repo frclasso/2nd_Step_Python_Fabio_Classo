@@ -32,40 +32,6 @@
 # # COMENTE TODO O CODIGO ACIMA E DESCOMENTE ABAIXO
 #
 #
-# class Employee:
-#
-#     raise_amount = 1.04  # variavel de classe
-#
-#     def __init__(self, first, last, pay):
-#         self.first = first
-#         self.last = last
-#         self.pay = pay
-#         self.email = first + '.' + last + '@company.com'
-#
-#     def fullname(self):
-#         return '{} {}'.format(self.first,self.last)
-#
-#     def apply_raise(self):
-#         #self.pay = int(self.pay * raise_amount)  # Error: NameError: name 'raise_amount' is not defined
-#         self.pay = int(self.pay * Employee.raise_amount) # ou self.raise_amount
-#
-#
-# # instanciando
-# emp_1 = Employee('Fabio','Classo', 50000)
-# emp_2 = Employee('User', 'Test', 150000)
-#
-#
-# # Aumento de salario
-# print(emp_1.pay)
-# emp_1.apply_raise()
-# print(emp_1.pay)
-# print()
-#
-# # Acessando a variavel raise_amount
-# print(Employee.raise_amount) # Diretamente via nome da classe
-# print(emp_1.raise_amount) # através da instância de classe
-# print(emp_2.raise_amount)
-# print()
 #
 # # um pequeno truque para entender o que está acontecendo aqui é imprimir o namespace/escopo
 # print(emp_1.__dict__)

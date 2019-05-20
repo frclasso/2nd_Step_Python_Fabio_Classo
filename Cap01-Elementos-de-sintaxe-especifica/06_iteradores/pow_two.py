@@ -26,7 +26,7 @@ print(next(i))
 print(next(i))
 print(next(i))
 print(next(i))
-print(next(i)) # raise Stopiteration , 5
+#print(next(i)) # raise Stopiteration , 5
 
 # for i in PowTwo(5):
 #     print(i)

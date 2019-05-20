@@ -9,7 +9,7 @@ class ComplexNumber:
         self.imag = i
 
     def getData(self):
-        print("{0}+{1}j".format(self.real, self.imag))
+        print("{}+{}j".format(self.real, self.imag))
 
 # criando um novo objeto ComplexNumber
 c1 = ComplexNumber(2,3)
@@ -28,5 +28,5 @@ print((c2.real, c2.imag, c2.attr))
 
 # no entanto c1 nao possui o atributo 'attr'
 # Attibute Error: 'ComplexNumber object has no attribute 'attr'
-c1.attr
+#c1.attr
 c2.getData()
