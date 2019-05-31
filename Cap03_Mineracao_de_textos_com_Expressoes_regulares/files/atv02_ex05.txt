@@ -1,0 +1,30 @@
+rap them
+tapeth
+apth
+wrap/try
+sap tray
+87ap9th
+apothecary
+
+
+aleht
+happy them
+tarpth
+Apt
+peth
+tarreth
+ddapdg
+apples
+shape the
+
+
+# [rtaws\d][\dpra][^rglde][\s]?[^ly][tr]?[h\/\d]?[cetr]?[mrahc]?(\w+)?
+
+#[rwts]?[as\d][\drp]?[\setao]?[poth][^tyd][the]?[armch]?[^shpel\sy][\shyr]?[y]?
+
+# [(^rts)]?[as\d][\drp]?[\setao]?[^rdls\s][^dlatyps][eta]?[mrhc]?[ya]?[r]?[y]?
+
+# [rtaws\d][\dpra][oapt][\sehpt]?[th\/\d]?
+
+#[ra|ta|ap|wr|sa|\d\d|ap]{2}[ptao][\s]?[^yl][\s]?[e\\/ht\d]?
+#([r|t|w|s|\d\d|apo]{3})[\s]?([^\Bpt\B|l|y]?[p])?[^y][h\/\d]?([\w]+)?

@@ -1,0 +1,61 @@
+24/12/2018 		R$ 95.000,00
+25/12/2018		R$10.000,00
+28/12/2018		R$ 10.000,00
+02/01/2018		R$ 5.000,00
+03/01/2018		R$ 20.000,00
+10/01/2018		R$ 25.000,00
+14/01/2018		R$ 3.000,00
+01/02/2019		R$ 47.000,00
+
+12/24/2018 		US$ 95,000.00
+12/24/2018		US$10,000.00
+12/28/2018		US$ 10,000.00
+01/02/2018		US$ 5,000.00
+01/03/2018		US$ 20,000.00
+01/10/2018		US$ 25,000.00
+01/14/2018		US$ 3,000.00
+02/01/2019		US$ 47,000.00
+
+
+
+a) Dias de janeiro BR
+resposta: \d\d\/(01)\/\d{4}
+
+b) Dias de janeiro US
+resposta: (01)\/\d\d\/\d{4}
+
+
+
+c) dias janeiro BR com 31 dias
+ # Nao entendi#####
+
+
+
+d) dias janeiro US com 31 dias
+ # Nao entendi####
+
+
+
+
+e) Dias pares BR
+resposta: \d(2|4|1|0)\/(01)\/\d{4}
+
+f) Dias pares US
+resposta: (01)\/\d(2|4|1|0)\/\d{4}
+
+g) Dias pares BR, excessão dia 10
+\d([^10|03])\/(01)\/\d{4}
+
+h) Dias pares US, excessão dia 10
+resposta: (01)\/\d([^10|03])\/\d{4}
+
+i) valores em reais
+resposta: R\$\s?\d\d?[,.]\d{3}[,.]\d{2}
+
+j)valores em dolares
+
+resposta: [US]{2}\$\s?\d\d?[,.]\d{3}[,.]\d{2}
+
+l)todos os valores monetarios
+resposta:  [R\$|US\$]{1,3}\s?\d\d?[,.]\d{3}[,.]\d{2}
+

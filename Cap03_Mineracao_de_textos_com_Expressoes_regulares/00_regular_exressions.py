@@ -248,14 +248,21 @@ sentence = 'Start a sentence and then bring it to an end'
 #     print(match)
 
 
-# 25 search
+##25 match
+
+pattern = re.compile(r'Start')  # procurando a palavra 'Start'
+matches = pattern.match(sentence) # acha a expressao regular se estiver no inicio da string
+print(matches)
+
+
+# 26 search
 
 # pattern = re.compile(r'sentence')  # procurando a palavra 'sentence'
-# matches = pattern.search(sentence)  # string sentence como parametro
+# matches = pattern.search(sentence) # procura em toda string
 # print(matches)
 
-# 26 flag re.IGNORECASE
+# 27 flag re.IGNORECASE
 
-pattern = re.compile(r'start', re.IGNORECASE)  # procurando a palavra 'Start ou start'
-matches = pattern.search(sentence)
-print(matches)
+# pattern = re.compile(r'start', re.IGNORECASE) ## ou re.I
+# matches = pattern.search(sentence)
+# print(matches)

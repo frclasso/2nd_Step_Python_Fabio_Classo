@@ -1,0 +1,12 @@
+Ontem, às 12:00, Joaquim sacou R$ 600,00 de um caixa eletrônico.
+Depois disso, passou no posto de gasolina às 2:36 p.m. e gastou
+123,70 reais de combustível. A seguir, comprou R$260,36 de itens
+no supermercado. Ao chegar em casa, às 16h30, logou-se num site
+de pôquer on-line e gastou 427,15 na jogatina. Apesar de ter ganho
+50 reais, no final das contas ele teve um prejuízo líquido de R$ 161,21.
+Eram 09:37 p.m. quando ele decidiu ir dormir.
+
+
+
+Resposta:
+#  ([R\$]{2})?\s?\d\d[^\:h\-][^0-9A-Zp][\,]?[^\sJl][\d]?([a-z]+)?

@@ -1,0 +1,32 @@
+Fabio Classo
+999-777-3152
+fabio@codecla.com.br
+
+Dave Martin
+615-555-7164
+davemartin@email.com
+
+Chalie Hunter
+800-555-4556
+ch@email.com
+
+Eric Martin
+615-555-9988
+ericm@email.com
+
+Lauren Hill
+987-555-5665
+laurenh@lh.com
+
+Donal Trump
+123-555-1234
+dotrump@whitehouse.com
+
+Peter Parker
+876-555-9876
+peterparker@dailynews.com
+
+
+Mary Jane Watson
+900-555-4000
+mjw@email.com

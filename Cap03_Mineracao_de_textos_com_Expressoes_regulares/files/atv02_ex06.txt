@@ -1,0 +1,23 @@
+affgfking
+rafgkahe
+bafghk
+baffgkit
+affgfking
+rafgkahe
+bafghk
+baffg kit
+
+
+fgok
+a fgk
+affgm
+afffhk
+fgok
+afg.K
+aff gm
+afffhgk
+
+---------------------------------
+Resposta
+#b?[bar][^\s][^o][g][^m]\w+
+---------------------------------

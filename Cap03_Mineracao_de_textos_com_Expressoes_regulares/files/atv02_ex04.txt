@@ -1,0 +1,16 @@
+pit
+spot
+spate
+slap two
+respite
+
+pt
+Pot
+peat
+part
+
+
+-----------------------------------------
+Resposta: 
+[psr]e?[^\Beat\B][a-z]+[\s?][t]?[we]?[o]?
+------------------------------------------

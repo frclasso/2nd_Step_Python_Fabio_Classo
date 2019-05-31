@@ -34,7 +34,7 @@ Organização do curso:
 Esse material foi desenvolvido por **Fabio R. Classo** para o curso de Linguagem de Programação Python
 
 
-![Image](https://github.com/frclasso/apostila_python_modulo_2/blob/master/python.png)
+![Image](https://github.com/frclasso/mineracao_textos/blob/master/banner__1004x558_github.png)
 
 Contatos: frclasso@gmail.com
 

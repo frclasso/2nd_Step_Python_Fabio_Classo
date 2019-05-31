@@ -1,0 +1,13 @@
+4556. Florian
+4 Floripa.
+A Floripa Santa Catarina
+4 Florianópolis.
+4556. Floripa Florianópolis
+4556. Floripa Florianópolis!
+
+
+# Capture as linhas que iniciam por nomes e terminam com palavras inteiras
+
+Resposta:
+
+\d(556\.)?\s[Flori]+[ap][\Zn\b]?[^\n\s][^\.]?[\s]?([A-Za-zó!\.]+)
