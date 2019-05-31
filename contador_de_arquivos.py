@@ -2,8 +2,8 @@
 
 import glob
 
-print(len(list(glob.iglob("/Users/fabio/Estudo/Prog/Python/apostila_python_modulo_2/*/*.py", recursive=True))))
+print(len(list(glob.iglob("/Users/fabio/Estudo/Prog/Python/2nd_Step_Python_Fabio_Classo/*/*.py", recursive=True))))
 
 print()
-print(sum(1 for i in glob.iglob("/Users/fabio/Estudo/Prog/Python/apostila_python_modulo_2/*.py")))
+print(sum(1 for i in glob.iglob("/Users/fabio/Estudo/Prog/Python/2nd_Step_Python_Fabio_Classo/*.py")))
 
