@@ -36,6 +36,14 @@ Esse material foi desenvolvido por **Fabio R. Classo** para o curso de Linguagem
 
 ![Image](https://github.com/frclasso/mineracao_textos/blob/master/banner__1004x558_github.png)
 
-Contatos: frclasso@gmail.com
 
-https://www.linkedin.com/in/fabio-reis-classo-46881425/
+www.floripacodegurus.com.br
+-----------------------------
+https://linktr.ee/floripa_code_gurus
+
+https://twitter.com/GurusCode
+
+https://www.instagram.com/floripa_code_gurus/
+
+https://www.facebook.com/codegurs/
+
