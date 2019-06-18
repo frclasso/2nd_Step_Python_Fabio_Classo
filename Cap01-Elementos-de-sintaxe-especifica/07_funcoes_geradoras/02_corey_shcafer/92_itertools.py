@@ -3,11 +3,11 @@
 
 import itertools
 
-#counter = itertools.count() # start=5, step=5
+counter = itertools.count() # start=5, step=5
 
-# loop infinito
-# for x in counter:
-#     print(x)
+#loop infinito
+for x in counter:
+    print(x)
 #
 # comenta
 #ex 1
@@ -107,12 +107,12 @@ names = ['Doe', 'Jane']
 #comenta/descomenta
 
 #compress
-letters =['a', 'b', 'c', 'd']
-selectors = [True, True, False, True]
-
-result = itertools.compress(letters, selectors)
-for item in result:
-    print(item)
+# letters =['a', 'b', 'c', 'd']
+# selectors = [True, True, False, True]
+#
+# result = itertools.compress(letters, selectors)
+# for item in result:
+#     print(item)
 
 
 """Corey Schafer
