@@ -180,7 +180,7 @@ dev_2 = Developer('Mary', 'Jane', 230000, 'Django')
 mgr_1 = Manager('JJ', 'Jameson', 400000,[dev_1])
 
 #print(mgr_1.email)
-# print(mgr_1.print_emp())
+print(mgr_1.print_emp())
 
 # Adicionando novos empregados a lista
 mgr_1.add_emp(dev_2)

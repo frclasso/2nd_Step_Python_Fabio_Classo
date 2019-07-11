@@ -9,52 +9,52 @@
 # # os métodos de classe(class methods) atrvés do decorator @classmethod
 #
 #
-# class Employee:
-#
-#
-#     num_of_emps = 0
-#     raise_amount = 1.04
-#
-#     def __init__(self, first, last, pay):
-#         self.first = first
-#         self.last = last
-#         self.pay = pay
-#         self.email = first + '.' + last + '@company.com'
-#
-#         Employee.num_of_emps += 1  # contador
-#
-#     def fullname(self):
-#         return '{} {}'.format(self.first,self.last)
-#
-#     def apply_raise(self):
-#         self.pay = int(self.pay * self.raise_amount)
-#
-#     @classmethod
-#     def set_raise_amt(cls, amount): # cls = classe
-#         cls.raise_amt = amount
-#
-# emp_1 = Employee('Fabio','Classo', 50000)
-# emp_2 = Employee('User', 'Test', 150000)
-#
-# # run this
-# # print(Employee.num_of_emps)
-# print(Employee.raise_amount) # estao usando a variavel de classe raise_amount
-# print(emp_1.raise_amount)
-# print(emp_2.raise_amount)
-# print()
-# # coment
-#
-# # run
-# Employee.set_raise_amt(1.05)
-# '''automaticamente define a classe, não é preciso passar como argumento
-# passamos apenas amt'''
-#
-# # ou ainda poderiamos usar uma instancia de classe com o metodo de classe
-# # e continua funcionando
-# #emp_1.set_raise_amt(1.05)
-# # print(Employee.raise_amt)
-# # print(emp_1.raise_amt)
-# # print(emp_2.raise_amt)
+class Employee:
+
+
+    num_of_emps = 0
+    raise_amount = 1.04
+
+    def __init__(self, first, last, pay):
+        self.first = first
+        self.last = last
+        self.pay = pay
+        self.email = first + '.' + last + '@company.com'
+
+        Employee.num_of_emps += 1  # contador
+
+    def fullname(self):
+        return '{} {}'.format(self.first,self.last)
+
+    def apply_raise(self):
+        self.pay = int(self.pay * self.raise_amount)
+
+    @classmethod
+    def set_raise_amt(cls, amount): # cls = classe
+        cls.raise_amt = amount
+
+emp_1 = Employee('Fabio','Classo', 50000)
+emp_2 = Employee('User', 'Test', 150000)
+
+# run this
+# print(Employee.num_of_emps)
+print(Employee.raise_amount) # estao usando a variavel de classe raise_amount
+print(emp_1.raise_amount)
+print(emp_2.raise_amount)
+print()
+# coment
+
+# run
+Employee.set_raise_amt(1.05)
+'''automaticamente define a classe, não é preciso passar como argumento
+passamos apenas amt'''
+
+# ou ainda poderiamos usar uma instancia de classe com o metodo de classe
+# e continua funcionando
+#emp_1.set_raise_amt(1.05)
+# print(Employee.raise_amt)
+# print(emp_1.raise_amt)
+# print(emp_2.raise_amt)
 
 # '''----------------------------------------------------------------'''
 # '''COMENTE TODO O CODIGO ACIMA E DESCOMENTE ABAIXO'''
@@ -82,7 +82,7 @@
 #     @classmethod
 #     def set_raise_amt(cls, amount):
 #         cls.raise_amt = amount
-#
+#u
 #
 # emp_1 = Employee('Fabio','Classo', 50000)
 # emp_2 = Employee('User', 'Test', 150000)
