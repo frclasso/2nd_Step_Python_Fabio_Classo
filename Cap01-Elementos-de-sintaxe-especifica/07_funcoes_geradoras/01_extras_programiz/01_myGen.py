@@ -23,8 +23,8 @@ print(next(a)) # We can iterate through the items using next().
 # Once the function yields, the function is paused and the control is transferred to the caller.
 # Local variables and theirs states are remembered between successive calls.
 
-print(next(a))
-print(next(a))
+#print(next(a))
+#print(next(a))
 # Finally, when the function terminates, StopIteration is raised
 # automatically on further calls.
 #print(next(a))

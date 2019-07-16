@@ -1,0 +1,2 @@
+Este tutorial foi extraido de :
+https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#question6
