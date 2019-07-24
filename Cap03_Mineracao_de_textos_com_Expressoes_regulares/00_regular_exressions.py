@@ -58,9 +58,9 @@ sentence = 'Start a sentence and then bring it to an end'
 
 
 # 2
-#pattern = re.compile(r'abc')
-#pattern = re.compile(r'cba')
-# matches = pattern.finditer(emails)
+# pattern = re.compile(r'abc')
+# # pattern = re.compile(r'cba')
+# matches = pattern.finditer("abcdefghijklmnopqrstuvwxyz")
 #
 # for match in matches:
 #     print(match)
@@ -69,13 +69,13 @@ sentence = 'Start a sentence and then bring it to an end'
 
 #<re.Match object; span=(1, 4), match='abc'>
 # span é o indice de inicio e fim do match
-#print(text_to_search[67:69])
+# print("abcdefghijklmnopqrstuvwxyz"[0:3])
 
 # 3)
 # o caracter . (ponto) corresponde a qualquer caracter exceto nova linha \n
-#pattern = re.compile(r'.') # precisa de \
-#pattern = re.compile(r'codecla\.com\.br')
-#matches = pattern.finditer(text_to_search)
+# pattern = re.compile(r'.') # precisa de \
+# pattern = re.compile(r'floripa\.com\.br')
+# matches = pattern.finditer(text_to_search)
 #
 # for match in matches:
 #     print(match)
@@ -84,7 +84,11 @@ sentence = 'Start a sentence and then bring it to an end'
 
 # 4)
 # digits
-#pattern = re.compile(r'\d')
+pattern = re.compile(r'\d')
+matches = pattern.finditer(text_to_search)
+
+for match in matches:
+    print(match)
 
 
 # 5)
@@ -250,9 +254,9 @@ sentence = 'Start a sentence and then bring it to an end'
 
 ##25 match
 
-pattern = re.compile(r'Start')  # procurando a palavra 'Start'
-matches = pattern.match(sentence) # acha a expressao regular se estiver no inicio da string
-print(matches)
+# pattern = re.compile(r'Start')  # procurando a palavra 'Start'
+# matches = pattern.match(sentence) # acha a expressao regular se estiver no inicio da string
+# print(matches)
 
 
 # 26 search
