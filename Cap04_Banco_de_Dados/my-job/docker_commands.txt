@@ -1,0 +1,14 @@
+Docker commands
+
+docker images                                                      # lista as imagens salvas localmente
+docker ps -a                                                       # exibe os contrainers ativos
+docker pull "ubuntu"                                               # baixa a imagem ubuntu 
+docker run -it -d ubuntu                                           # cria container baseado na imagem ubuntu
+docker exec -it 'container ID' bash                                # loga no container
+docker login: username , password                                  # faz login no docker-hub
+docker commit "container id" 'username/nome-do-container'          # faz o commit do novo container
+docker push 'nome-do-container'                                    # faz o upload do novo container
+docker stop "container ID"                                         # para o container
+docker rm "container ID"                                           # deleta o container
+docker rmi "image ID"                                              # deleta a imagem, o container nao pode estar rodando
+docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' "container ID"    # obter IP
