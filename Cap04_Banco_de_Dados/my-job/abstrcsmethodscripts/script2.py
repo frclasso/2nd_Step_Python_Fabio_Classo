@@ -1,7 +1,7 @@
 from abc import ABCMeta, abstractmethod
 
 class AbstractClassExample(metaclass=ABCMeta):
- 
+
     @abstractmethod
     def do_something(self):
         print('Some implementations')
