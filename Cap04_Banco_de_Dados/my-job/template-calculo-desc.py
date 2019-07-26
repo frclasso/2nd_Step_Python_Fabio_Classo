@@ -1,9 +1,5 @@
 # -*- coding: UTF-8 -*-
 
-'''
-Created on Oct 18, 2016
-@author: tca85
-'''
 
 from descontos import Desconto_por_cinco_itens, Desconto_por_mais_de_quinhentos_reais, Sem_desconto
 

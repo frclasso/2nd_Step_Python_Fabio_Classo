@@ -1,32 +1,5 @@
 # -*- coding: UTF-8 -*-
 
-'''
-Created on Oct 17, 2016
-https://cursos.alura.com.br/course/design-patterns-python
-Design Patterns Python I: Boas práticas de programação
-@author: tca85
-'''
-
-'''
-Nossos orçamentos podem ter diferentes estados durante o seu ciclo de vida. Um orçamento nasce 
-"Em aprovação" e pode virar "Aprovado" ou "Reprovado". Ao final de todo o processo, deverá ser "Finalizado".
-Dependendo do estado que o orçamento se encontra, algumas ações podem ser diferentes. 
-Por exemplo, podemos adicionar um desconto extra ao orçamento
-Em implementações mais procedurais, desenvolvedores geralmente optam por representar o estado 
-do objeto por meio de constantes e um método para aplicar os descontos com vários ifs
-1) Geralmente outros comportamentos dessa classe também variam de acordo com o estado do objeto;
-2) A cada novo estado, um novo if deve ser acrescentado em todos os métodos do objeto
-Qual a solução?
-Para eliminarmos esses vários ifs, precisamos primeiro separar cada ação de acordo com o estado 
-em uma classe diferente.
-Todas essas classes são possíveis estados de um orçamento, o que nos leva a crer que poderíamos ter 
-um método comum para todas elas, por isso criamos uma classe abstrata com métodos abstratos
-A principal situação que faz emergir o Design Pattern State é a necessidade de implementação de 
-uma máquina de estados. Geralmente, o controle das possíveis transições entre estados são várias, 
-também são complexas, fazendo com que a implementação não seja simples. O State auxilia a manter 
-o controle dos estados simples e organizados, através da criação de classes que representem cada 
-estado e sabendo controlar as transições entre eles.
-'''
 
 from abc import ABCMeta, abstractmethod
 
