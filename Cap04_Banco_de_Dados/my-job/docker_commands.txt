@@ -7,7 +7,7 @@ docker run -it -d ubuntu                                           # cria contai
 docker exec -it 'container ID' bash                                # loga no container
 docker login: username , password                                  # faz login no docker-hub
 docker commit "container id" 'username/nome-do-container'          # faz o commit do novo container
-docker push 'nome-do-container'                                    # faz o upload do novo container
+docker push 'username/nome-do-container'                                    # faz o upload do novo container
 docker stop "container ID"                                         # para o container
 docker rm "container ID"                                           # deleta o container
 docker rmi "image ID"                                              # deleta a imagem, o container nao pode estar rodando

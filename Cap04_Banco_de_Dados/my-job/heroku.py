@@ -6,7 +6,7 @@
 # pip install gunicorn
 # rodar pip freeze - para ver todas as instalacoes feitas pelo pip
 # copiar todas as aplicacoese colar em requirements.txt
-# pip freeze > requiments.txt
+# pip freeze > requirements.txt
 
 
 #-----
@@ -22,7 +22,7 @@
 
 
 # instalando heroku database
-#heroku addons
+# heroku addons
 
 # heroku addons:create heroku-postgresql:hobby-dev     # hobby-dev is free
 
