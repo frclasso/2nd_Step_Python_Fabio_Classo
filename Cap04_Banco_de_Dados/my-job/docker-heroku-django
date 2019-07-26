@@ -1,0 +1,6 @@
+Deploying To Heroku
+Once you have things set up and are ready to push to Heroku.
+
+$ docker build --tag=example --file=Dockerfile
+$ heroku container:push --recursive --app=name-of-your-app
+$ heroku container:release --app=name-of-your-app
