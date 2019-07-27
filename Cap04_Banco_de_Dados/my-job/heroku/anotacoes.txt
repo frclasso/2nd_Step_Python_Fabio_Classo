@@ -1,0 +1,12 @@
+simuladorapp.herokuapp.com
+
+http://whitenoise.evans.io/en/stable/changelog.html#v4-0
+
+
+senha heroku
+49QTWNcAmzLEf@M
+
+
+
+docker id  - portobelloshopsimulador
+senha docker -      Xz4StAxH42WGYca
