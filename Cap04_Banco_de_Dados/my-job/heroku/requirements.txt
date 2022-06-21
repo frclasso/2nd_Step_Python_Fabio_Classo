@@ -30,7 +30,7 @@ jsonschema==2.6.0
 lazy-object-proxy==1.4.1
 MarkupSafe==1.1.1
 mccabe==0.6.1
-numpy==1.16.4
+numpy==1.22.0
 packaging==19.0
 pandas==0.25.0
 paramiko==2.6.0
